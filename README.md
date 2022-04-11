@@ -7,3 +7,5 @@
 - [x] align-items
 - [x] flex-wrap
 - [x] align-content
+- [x] flex-grow
+- [x] flex-shirink

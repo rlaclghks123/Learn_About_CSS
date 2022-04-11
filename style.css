@@ -3,13 +3,11 @@
     /* Main Axis */
     justify-content: space-around;
     /* Cross Axis */
-    align-content: space-around;
-    height: 200vh;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .box {
-    width: 200px;
+    width: 300px;
     height: 200px;
     background: peru;
     color: white;
@@ -17,4 +15,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box:nth-child(2) {
+    background: #000;
+    flex-grow: 1;
 }
