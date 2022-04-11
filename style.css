@@ -3,8 +3,9 @@
     /* Main Axis */
     justify-content: space-around;
     /* Cross Axis */
-    align-items: center;
+    align-content: space-around;
     height: 200vh;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -12,4 +13,8 @@
     height: 200px;
     background: peru;
     color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

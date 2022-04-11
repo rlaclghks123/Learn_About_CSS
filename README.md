@@ -3,6 +3,7 @@
 ## Flexbox:
 
 - [x] flex-direction
-- [x] flex-wrap
 - [x] justify-content
 - [x] align-items
+- [x] flex-wrap
+- [x] align-content
