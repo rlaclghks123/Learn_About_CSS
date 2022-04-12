@@ -1,32 +1,15 @@
-.wrapper {
-    display: flex;
-    height: 500px;
-    /* Main Axis */
-    justify-content: center;
-    /* Cross Axis */
-    width: 500px;
-    border: 1px solid black;
-    /* flex-wrap: wrap; */
+.father {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
 }
 
-.box {
-    border: 1px solid black;
-    width: 300px;
-    height: 100px;
+.child {
     background: peru;
     color: white;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box:nth-child(2) {
-    flex-basis: 50px;
-    background-color: black;
-}
-
-.box:nth-child(3) {
-    flex-basis: 50px;
-    background-color: red;
 }
