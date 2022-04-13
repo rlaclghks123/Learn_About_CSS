@@ -30,6 +30,10 @@
 - [x] grid-gap
 - [x] grid-template-areas
 - [x] grid-template
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
 - [ ] justify-items
 - [ ] align-items
 - [ ] justify-content
@@ -37,10 +41,6 @@
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
 - [ ] grid-column
 - [ ] grid-row
 - [ ] justify-self
