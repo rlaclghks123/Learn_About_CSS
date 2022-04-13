@@ -36,8 +36,11 @@
 - [x] grid-row-end
 - [x] grid-column
 - [x] grid-row  
-- [ ] justify-items
-- [ ] align-items
+- [x] justify-items
+- [x] align-items
+- [x] place-items
+- [ ] justify-content
+- [ ] align-content
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
