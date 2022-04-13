@@ -34,6 +34,8 @@
 - [x] grid-column-end
 - [x] grid-row-start
 - [x] grid-row-end
+- [x] grid-column
+- [x] grid-row  
 - [ ] justify-items
 - [ ] align-items
 - [ ] justify-content
@@ -41,7 +43,5 @@
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
-- [ ] grid-column
-- [ ] grid-row
 - [ ] justify-self
 - [ ] align-self
