@@ -38,8 +38,6 @@
 - [x] grid-row  
 - [ ] justify-items
 - [ ] align-items
-- [ ] justify-content
-- [ ] align-content
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
