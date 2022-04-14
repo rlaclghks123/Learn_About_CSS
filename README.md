@@ -46,3 +46,13 @@
 - [x] grid-auto-flow
 - [x] justify-self
 - [x] align-self
+
+### Keywords & Functions:
+
+- [x] repeat
+- [x] fr
+- [x] minmax
+- [ ] min-content
+- [ ] max-content
+- [ ] auto-fit
+- [ ] auto-fill
