@@ -1,16 +1,12 @@
 @import "_variables.scss";
+@import "_mixins.scss";
 
-
-h2:active {
-    background-color: $bg;
-}
-
-.box {
-    &:hover {
-        background-color: $bg;
+h2 {
+    &:first-child {
+        @include sexyTitle("odd");
     }
 
-    h2 {
-        color: $bg;
+    &:last-child {
+        @include sexyTitle("even");
     }
 }

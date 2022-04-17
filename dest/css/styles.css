@@ -1,1 +1,1 @@
-.box:hover,h2:active{background-color:#e7473c}.box h2{color:#e7473c}
+h2:first-child{color:#fff;font-size:20px;background-color:tomato}h2:last-child{color:#fff;font-size:20px;background-color:#0ff}
