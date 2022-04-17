@@ -56,3 +56,11 @@
 - [x] auto-fill
 - [x] min-content
 - [x] max-content
+
+## SCSS:
+
+- [x] Variables
+- [x] Nesting
+- [x] Mixins
+- [x] Extend
+- [ ] Responsive Mixins
