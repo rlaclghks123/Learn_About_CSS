@@ -1,3 +1,9 @@
-body {
-    background-color: tomato;
+@import "_variables.scss";
+
+.box:hover {
+    background-color: $bg;
+}
+
+h2 {
+    color: $bg;
 }
