@@ -1,9 +1,16 @@
 @import "_variables.scss";
 
-.box:hover {
+
+h2:active {
     background-color: $bg;
 }
 
-h2 {
-    color: $bg;
+.box {
+    &:hover {
+        background-color: $bg;
+    }
+
+    h2 {
+        color: $bg;
+    }
 }

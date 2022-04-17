@@ -1,1 +1,1 @@
-.box:hover{background-color:#e7473c}h2{color:#e7473c}
+.box:hover,h2:active{background-color:#e7473c}.box h2{color:#e7473c}
