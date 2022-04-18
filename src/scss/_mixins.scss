@@ -1,12 +1,12 @@
-@mixin sexyTitle($word) {
+@mixin first() {
     color: white;
     font-size: 20px;
+    background-color: red;
+}
 
-    @if $word=="odd" {
-        background-color: tomato;
-    }
-
-    @else {
-        background-color: aqua;
-    }
+@mixin second() {
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    @content;
 }
