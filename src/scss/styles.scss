@@ -81,18 +81,44 @@ header {
 }
 
 main {
+    margin-left: 40%;
 
-    head {
-        margin-left: 40%;
+    .main_head {
+        background-color: $red;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        opacity: 0.8;
+        top: 0;
         padding: 60px 0px;
-        text-align: center;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         color: white;
+        z-index: 2;
 
         span {
-            &:nth-child(2) {
+            margin: 0px 5px;
+
+            &:nth-child(even) {
+
                 color: #76150f;
+                border-bottom: 1.5px solid #76150f;
+
+                &:hover {
+                    color: white;
+                    border-bottom: 1.5px solid white;
+                }
             }
+        }
+    }
+
+    .main_content {
+        background-color: white;
+        height: 30px;
+        margin-top: 140px;
+
+        img {
+            width: 500px;
         }
     }
 }
