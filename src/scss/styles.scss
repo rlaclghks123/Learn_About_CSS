@@ -27,23 +27,23 @@ header {
     background-color: $white;
 
     h1 {
-        height: 200px;
+        height: 150px;
         width: 50px;
-        font-size: 80px;
+        font-size: 70px;
         margin: 70px 0px;
         text-transform: uppercase;
         letter-spacing: 5px;
     }
 
     h2 {
-        margin: 50px 0px;
+        margin: 30px 0px;
         font-size: 23px;
         width: 60%;
     }
 
     p {
         width: 73%;
-        margin: 20px 0px;
+        margin: 10px 0px;
     }
 
     ul {
@@ -101,8 +101,8 @@ main {
 
             &:nth-child(even) {
 
-                color: #76150f;
-                border-bottom: 1.5px solid #76150f;
+                color: $word;
+                border-bottom: 1.5px solid $word;
 
                 &:hover {
                     color: white;
@@ -113,12 +113,49 @@ main {
     }
 
     .main_content {
-        background-color: white;
-        height: 30px;
-        margin-top: 140px;
+        margin: 0px 80px;
+        margin-top: 200px;
+
+        .movie__header {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            margin: 30px 0px;
+            display: flex;
+            align-items: flex-end;
+
+            h1 {
+                font-weight: 700;
+                font-size: 40px;
+            }
+        }
 
         img {
-            width: 500px;
+            width: 650px;
+            box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+                inset 0 0 0 1px rgba(0, 0, 0, 0.2);
         }
+
+        .movie_rating {
+            display: flex;
+            justify-content: flex-end;
+            color: $word;
+            margin: 50px 0px;
+        }
+
+        .movie_comments {
+            display: flex;
+            justify-content: space-between;
+            color: $word;
+            font-size: 18px;
+
+            .leave_Comments {
+                span {
+                    border-bottom: 2px solid $word;
+                    cursor: pointer;
+                }
+            }
+        }
+
     }
 }
