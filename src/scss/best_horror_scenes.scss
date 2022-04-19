@@ -1,0 +1,203 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_buttons.scss";
+@import "reset.scss";
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: $red;
+    height: 1000vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    color: $red;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 60px;
+    width: 40%;
+    background-color: $white;
+
+    h1 {
+        height: 150px;
+        width: 50px;
+        font-size: 70px;
+        margin: 70px 0px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    h2 {
+        margin: 30px 0px;
+        font-size: 23px;
+        width: 60%;
+    }
+
+    p {
+        width: 73%;
+        margin: 10px 0px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        width: 75%;
+        height: 50px;
+        color: black;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+
+        li {
+            margin-right: 10px;
+            font-size: 14px;
+
+            opacity: 0.6;
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(0, 0, 0, 1);
+            margin-bottom: 10px;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    h6 {
+        margin: 20px 0px;
+        font-size: 11px;
+        color: black;
+        opacity: 0.4;
+        width: 70%;
+    }
+}
+
+main {
+    margin-left: 40%;
+
+    .main_head {
+        background-color: $red;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        opacity: 0.8;
+        top: 0;
+        padding: 60px 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        color: white;
+        z-index: 2;
+
+        span {
+            margin: 0px 5px;
+
+            &:nth-child(even) {
+
+                color: $word;
+                border-bottom: 1.5px solid $word;
+
+                &:hover {
+                    color: white;
+                    border-bottom: 1.5px solid white;
+                }
+            }
+        }
+    }
+
+
+
+    .main_content {
+        padding: 70px 0px;
+
+        background: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.1) 5%,
+                transparent,
+                transparent,
+                transparent,
+                transparent) $red;
+
+        .wrapper {
+            margin: 0px 80px;
+            // margin-top: 5px;
+
+
+            .movie__header {
+                display: flex;
+                justify-content: space-between;
+                color: white;
+                margin: 30px 0px;
+                display: flex;
+                align-items: flex-end;
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 40px;
+                }
+            }
+
+            img {
+                width: 650px;
+                box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+                    inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+            }
+
+            .movie_rating {
+                display: flex;
+                justify-content: flex-end;
+                color: $word;
+                margin: 50px 0px;
+            }
+
+            .movie_comments {
+                display: flex;
+                justify-content: space-between;
+                color: $word;
+                font-size: 16px;
+
+
+                .leave_Comments {
+                    cursor: pointer;
+                    display: flex;
+
+                    i {
+                        padding-top: 3px;
+                    }
+
+                    .leave_Comments__span {
+                        display: flex;
+                        flex-direction: column;
+
+
+                        span {
+                            margin-left: 10px;
+
+                            &:first-child {
+                                background-color: #CF4036;
+                                padding: 3px;
+                                // border-bottom: 2px solid $word;
+                            }
+
+                            &:last-child {
+                                margin-top: 7px;
+                                border-top: 2px solid $word;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .main_content_first {
+        padding-top: 170px;
+    }
+}
