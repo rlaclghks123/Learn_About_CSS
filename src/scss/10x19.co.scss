@@ -58,4 +58,29 @@ body {
         background-size: cover;
         background-position: center;
     }
+
+    .scrolling__text {
+        font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-transform: uppercase;
+
+        span {
+            animation: scrollText 7s linear infinite forwards;
+        }
+    }
+
+    @keyframes scrollText {
+        0% {
+            transform: translateX(-150px);
+        }
+
+        50% {
+            transform: translateX(150px);
+        }
+
+        100% {
+            transform: translateX(-150px);
+        }
+    }
 }
