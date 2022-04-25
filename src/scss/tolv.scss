@@ -1,0 +1,62 @@
+@import "reset.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 500vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 0px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.4),
+        inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    div {
+        display: flex;
+
+        &:first-child {
+            width: 33%;
+
+            div {
+                display: flex;
+                justify-content: flex-start;
+            }
+        }
+
+        &:nth-child(2) {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+            }
+
+        }
+
+        &:last-child {
+            width: 33%;
+            display: flex;
+            justify-content: flex-end;
+
+            i {
+                font-size: 20px;
+                margin-left: 50px;
+            }
+
+        }
+
+    }
+}
