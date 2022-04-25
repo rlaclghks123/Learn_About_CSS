@@ -173,3 +173,33 @@ main {
         }
     }
 }
+
+footer {
+    height: 100vh;
+    background-color: #535851;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 200px 100px;
+    color: white;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 100px;
+
+        span {
+            cursor: pointer;
+            margin: 10px 0px;
+
+            &:first-child {
+                color: #A8ABA8;
+            }
+
+            &:not(:first-child):hover {
+                width: fit-content;
+                border-bottom: 0.1px solid white;
+            }
+        }
+    }
+}
