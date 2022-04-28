@@ -92,13 +92,63 @@ i {
 }
 
 main {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 600px);
+    grid-template-rows: repeat(3, 575px);
 
-    div {
+    .main_grid_column {
+        display: flex;
+        flex-direction: column;
+        // background-color: tomato;
+
+        div {
+            width: 100%;
+            font-size: 13px;
+
+            &:hover {
+                filter: blur(25px);
+            }
+
+            &:first-child {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px;
+            }
+
+            &:nth-child(2) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 50%;
+                    height: 100%;
+                    margin: 50px 0px;
+                }
+
+                span {
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+
+            &:last-child {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding: 20px;
+                height: 140px;
+            }
+        }
+
         &:first-child {
             background-color: #70989D;
+
+
         }
 
         &:nth-child(2) {
