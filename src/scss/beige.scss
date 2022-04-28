@@ -6,8 +6,7 @@
 }
 
 body {
-    height: 500vh;
-    background-color: antiquewhite;
+    height: 200vh;
 }
 
 nav {
@@ -89,5 +88,53 @@ i {
     &:hover {
         opacity: 0.5;
 
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 600px);
+
+    div {
+        &:first-child {
+            background-color: #70989D;
+        }
+
+        &:nth-child(2) {
+            background-color: #A9C6B9;
+        }
+
+        &:nth-child(3) {
+            background-color: #B0AD83;
+        }
+
+        &:nth-child(4) {
+            background-color: #C98347;
+        }
+
+        &:nth-child(5) {
+            background-color: #E1D4B7;
+        }
+
+        &:nth-child(6) {
+            background-color: #70989D;
+        }
+
+        &:nth-child(7) {
+            background-color: #A9C6B9;
+        }
+
+        &:nth-child(8) {
+            background-color: #B0AD83;
+        }
+
+        &:nth-child(9) {
+            background-color: #C98347;
+        }
+
+        &:nth-child(10) {
+            background-color: #E1D4B7;
+        }
     }
 }
