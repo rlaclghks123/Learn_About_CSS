@@ -19,4 +19,47 @@ main {
             line-height: 50px;
         }
     }
+
+    .main_content {
+        margin: 150px 0px;
+
+        .main_content_header {
+            font-size: 13px;
+        }
+
+        .main_content_content {
+            font-size: 20px;
+        }
+
+
+        div {
+            border-bottom: 1px solid black;
+            display: flex;
+            padding: 15px 0px;
+            width: 100%;
+
+            span {
+                &:first-child {
+                    width: 10%;
+                }
+
+                &:nth-child(2) {
+                    width: 40%;
+                }
+
+                &:nth-child(3) {
+                    width: 50%;
+                }
+
+                &:nth-child(4) {
+                    width: 10%;
+                }
+            }
+
+            i {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
 }
