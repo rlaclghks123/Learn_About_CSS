@@ -1,3 +1,22 @@
+@import "reset.scss";
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: tan;
+    padding: 50px;
+    height: 200vh;
+}
+
+main {
+
+    header {
+        width: 90%;
+
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
 }
