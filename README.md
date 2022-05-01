@@ -77,5 +77,5 @@
 - [x] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
 - [x] [https://beige.de/](https://beige.de/)
 - [x] [http://donicaida.com/](http://donicaida.com/)
-- [ ] [https://wonhundred.com/](https://wonhundred.com/)
+- [x] [https://wonhundred.com/](https://wonhundred.com/)
 - [ ] [https://canalstreet.market/](https://canalstreet.market/)
