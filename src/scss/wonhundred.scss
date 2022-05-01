@@ -13,7 +13,8 @@ nav {
     top: 0;
     width: 100%;
     display: flex;
-    padding: 10px;
+    align-items: center;
+    padding: 5px;
     background-color: white;
     font-size: 13px;
 
@@ -42,8 +43,21 @@ nav {
 }
 
 main {
-    margin-top: 30px;
-    height: 100vh;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 600px 200px);
+    gap: 1px;
+
+    .img {
+        background-image: url("https://source.unsplash.com/random/");
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .main_write {
+        grid-column: 1/3;
+    }
 }
 
 footer {
