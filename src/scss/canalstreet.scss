@@ -1,3 +1,49 @@
+@import "reset.scss";
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: antiquewhite;
+}
+
+nav {
+    position: fixed;
+    right: 0;
+    background-color: tomato;
+    height: 100%;
+    display: flex;
+
+    div {
+        cursor: pointer;
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+
+        &:first-child {
+            background-color: #5DA3EC;
+        }
+
+        &:nth-child(2) {
+            background-color: #F64444;
+        }
+
+        &:last-child {
+            background-color: #FFB400;
+        }
+
+        h3 {
+            position: fixed;
+            top: 10%;
+        }
+
+        span {
+            display: block;
+            transform: rotateZ(90deg);
+        }
+
+    }
 }
