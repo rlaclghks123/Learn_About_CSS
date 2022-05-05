@@ -28,14 +28,15 @@ nav {
                 }
 
                 &:last-child {
-                    opacity: 0.3;
+                    color: gainsboro;
                     font-weight: 500;
                 }
             }
 
             &:hover {
-                opacity: 1;
-                color: #348844;
+                span {
+                    color: #348844;
+                }
             }
 
         }
@@ -81,7 +82,7 @@ main {
         width: 70%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(10, 650px);
+        grid-template-rows: repeat(4, 650px);
 
 
         .main_content_column {
@@ -98,7 +99,7 @@ main {
             }
 
             p {
-                padding: 20px 0px;
+                padding: 30px 0px;
                 font-weight: 300;
                 letter-spacing: 1px;
             }
@@ -116,6 +117,28 @@ main {
 
                 &:hover {
                     color: black;
+                }
+            }
+
+            span {
+                display: block;
+                font-weight: 300;
+            }
+
+            &:last-child {
+                font-weight: 300;
+
+                p {
+                    padding: 80px 0px;
+                }
+
+                h6 {
+                    margin: 5px 0px;
+                    color: #348844;
+                }
+
+                span {
+                    margin: 20px 0px;
                 }
             }
         }
