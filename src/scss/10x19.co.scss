@@ -25,6 +25,12 @@ body {
 
     .menu {
         grid-column-start: -2;
+
+        &:hover {
+            background-color: #B07831;
+            transition: color 0.3s linear, background-color 0.3s linear;
+            color: white;
+        }
     }
 
     .number_row {
