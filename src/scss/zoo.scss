@@ -13,45 +13,56 @@ nav {
     display: inline;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    // display: flex;
     width: 100%;
-
     background-color: white;
     cursor: pointer;
 
     .nav_first {
-        padding: 7px;
-        height: inherit;
-
-        span {
-            &:not(span:first-child) {
-                color: #E0E1E2;
-            }
-
-            &:first-child {
-                padding-right: 80px;
-
-                &:hover {
-                    color: white;
-
-                }
-
-            }
-        }
-
+        display: flex;
 
         &:hover {
             background-color: #E0E1E2;
 
-            span {
-                &:not(span:first-child) {
-                    color: white;
+            .nav_first_first {
+                color: black;
+            }
+
+            .nav_first_second {
+                // color: white;
+            }
+        }
+
+        .nav_first_first {
+            width: 20vh;
+            padding: 10px;
+
+            &:hover {
+                color: white;
+
+                .nav_first_second {
+                    color: black;
                 }
+            }
+        }
+
+        .nav_first_second {
+            padding: 10px;
+            width: 100%;
+
+            &:hover {
+                color: white;
             }
         }
 
 
     }
+
+
+
+
+
+
+
 
     span {
         margin-right: 50px;
@@ -60,7 +71,8 @@ nav {
     }
 
     .nav_last {
-        padding: 7px;
+        display: inline;
+        padding: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -73,6 +85,7 @@ nav {
             font-size: 13px;
             width: 100%;
             text-align: end;
+            margin-top: 20px;
             margin-right: 0px;
         }
     }
