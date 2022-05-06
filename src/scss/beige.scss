@@ -98,50 +98,86 @@ main {
     .main_grid_column {
         display: flex;
         flex-direction: column;
-        // background-color: tomato;
 
-        div {
-            width: 100%;
-            font-size: 13px;
-
-            &:hover {
-                filter: blur(25px);
+        &:hover {
+            .invisible {
+                display: block;
             }
 
-            &:first-child {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                padding: 20px;
-            }
-
-            &:nth-child(2) {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                img {
-                    width: 50%;
-                    height: 100%;
-                    margin: 50px 0px;
-                }
-
-                span {
-                    width: 50%;
-                    text-align: center;
-                }
-            }
-
-            &:last-child {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: flex-end;
-                padding: 20px;
-                height: 140px;
+            .visible {
+                display: none;
             }
         }
+
+        .invisible {
+            display: none;
+            width: 100%;
+            height: 100%;
+
+            h3 {
+                height: 100%;
+                width: 100%;
+                padding: 0px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 20px;
+            }
+        }
+
+        .visible {
+            width: 100%;
+            height: 100%;
+            font-size: 13px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                display: none;
+            }
+
+            .visible_column {
+                width: 100%;
+                height: 100%;
+
+
+                &:first-child {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 20px;
+                }
+
+                &:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 70%;
+                        height: 100%;
+                        margin: 25px 0px;
+                    }
+
+                    span {
+                        width: 50%;
+                        text-align: center;
+                    }
+                }
+
+                &:last-child {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    padding: 20px;
+                }
+            }
+        }
+
 
         &:first-child {
             background-color: #70989D;
