@@ -63,7 +63,7 @@
 - [x] Nesting
 - [x] Mixins
 - [x] Extend
-- [ ] Responsive Mixins
+- [x] Responsive Mixins
 
 
 ## clone cording:
@@ -78,4 +78,4 @@
 - [x] [https://beige.de/](https://beige.de/)
 - [x] [http://donicaida.com/](http://donicaida.com/)
 - [x] [https://wonhundred.com/](https://wonhundred.com/)
-- [ ] [https://canalstreet.market/](https://canalstreet.market/)
+- [x] [https://canalstreet.market/](https://canalstreet.market/)
