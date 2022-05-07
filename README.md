@@ -20,14 +20,22 @@
 
 
 <hr>
+<br>
+<br>
+<br>
 
 ## Grid:
 
-- [x] grid-template-columns
-- [x] grid-template-rows
-- [x] grid-column-gap
-- [x] grid-row-gap
-- [x] grid-gap
+| property              | Image                                                     | info                                                                       |
+| --------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------- |
+| grid-template-columns | <img src="img/grid-template-columns.jpg" width="300"><br> | columns(세로)의 개수를 지정하는 방식이다.                                  |
+| grid-template-rows    | <img src="img/grid-template-rows.jpg" width="300"><br>    | rows(가로)의 개수를 지정하는 방식이다. ex) columns는 3개, rowssms 6개이다. |
+| grid-template-gap     | <img src="img/grid-template-gap.jpg" width="300"><br>     | columns(세로)로 각각의 box마다 간격이다.                                   |
+| grid-row-gap          | <img src="img/grid-row-gap.jpg" width="300"><br>          | row(가로)로 각각의 box마다 간격이다.                                       |
+| grid-gap              | <img src="img/grid-gap.jpg" width="300"><br>              | column(세로), row(가로) 양쪽모두 각각의 box마다 간격이다.                  |
+
+
+
 - [x] grid-template-areas
 - [x] grid-template
 - [x] grid-column-start

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite;
+}
+
+main{
+    background-color: white;
+    margin-top: 100px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 1px;
+}
+
+    div{
+        background-color: aquamarine;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px; 
+    }
+   
