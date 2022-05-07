@@ -1,4 +1,5 @@
 @import "reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 * {
     box-sizing: border-box;
@@ -88,6 +89,8 @@ main {
                 display: flex;
                 flex-direction: column;
                 width: 30%;
+                font-family: 'Vollkorn', serif;
+                // font-family: 'Poppins', sans-serif;
 
                 .main_content_img {
                     background-image: url("https://source.unsplash.com/random/");
@@ -97,7 +100,7 @@ main {
                 }
 
                 p {
-                    margin-top: 50px;
+                    margin-top: 30px;
                     line-height: 25px;
                 }
 
