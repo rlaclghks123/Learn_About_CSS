@@ -2,49 +2,52 @@
     box-sizing: border-box;
 }
 body{
-    background-color:antiquewhite;
+    background-color:white;
+    width: 100%;
+    display: flex;
 }
 
-main{
-    background-color: white;
-    height: 50vh;
-    margin-top: 200px;
+.start{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows:  repeat(4,1fr);
-    grid-gap: 1px;
-    
+    height: 500px;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: repeat(1,70px);
+    background-color: tan;
+    color: white;
+    gap: 5px;
+    align-content:start;
 }
 
-    div{
-        border-right: 5px solid black;
-        border-left: 5px solid black;
-        /* background-color: aquamarine;   */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px; 
-    }
-
-   
-    .header{
-        grid-row-start: 1;
-        grid-row-end: 2;
-        background-color: green;
-          
-    }
-    .content{
-        grid-row-start:1 ;
-        grid-row-end: 3;
-        background-color:blue;
-    }
-    .nav{
-        grid-row-start:1 ;
-        grid-row-end: 4;
-        background-color:purple;
-    }
-    .footer{
-        grid-row-start: 1;
-        grid-row-end: 5;
-        background-color: orange;
-    }
+.center{
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: repeat(1,70px);
+    background-color: tan;
+    color: white;
+    gap: 5px;
+    align-content:center;
+    margin: 0px 50px;
+}
+.end{
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: repeat(1,70px);
+    background-color: tan;
+    color: white;
+    gap: 5px;
+    align-content:end;
+}
+.header {
+    background-color: #2ecc71;
+  }
+  .content {
+    background-color: #3498db;
+  }
+  .nav {
+    background-color: #8e44ad;
+  }
+  .footer {
+    background-color: #f39c12;
+  }

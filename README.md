@@ -26,13 +26,28 @@
 
 ## Grid:
 
-| property                           | Image                                                     | info                                                                                                                                             |
-| ---------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| property | Image | info |
+| -------- | ----- | ---- |
+부모box에 사용.
 | grid-template-columns              | <img src="img/grid-template-columns.jpg" width="300"><br> | columns(세로)의 개수를 지정하는 방식이다.                                                                                                        |
 | grid-template-rows                 | <img src="img/grid-template-rows.jpg" width="300"><br>    | rows(가로)의 개수를 지정하는 방식이다. ex) columns는 3개, rowssms 6개이다.                                                                       |
 | grid-template-gap                  | <img src="img/grid-template-gap.jpg" width="300"><br>     | columns(세로)로 각각의 box마다 간격이다.                                                                                                         |
 | grid-row-gap                       | <img src="img/grid-row-gap.jpg" width="300"><br>          | row(가로)로 각각의 box마다 간격이다.                                                                                                             |
 | grid-gap                           | <img src="img/grid-gap.jpg" width="300"><br>              | column(세로), row(가로) 양쪽모두 각각의 box마다 간격이다.      grid-row-gap 와 grid-gap를 합친것.                                                |
+| align-items     | <img src="img/grid-align-items.jpg" width="300"><br>    | grid의 자식box의 column을 기준으로 처음, 중간, 끝으로 옮길수 있다.|
+| justify-items      | <img src="img/grid-justify-item.jpg" width="300"><br>    | grid의 자식box의  row를 기준으로 처음, 중간, 끝으로 옮길수 있다.        |
+| place-items     | <br>    |  align-items 와 justify-items를 짧게 줄여서 사용 할 수 있다. ex) place-items : start  end  단 align-items가 앞이다. |
+| align-content | <img src="img/grid-justify-content.jpg" width="300"><br>      | 부모box 전체의 colunm을 기준으로 처음,중간,끝으로 옮길수있다.  |
+| align-contentt | <img src="img/grid-align-content.jpg" width="300"><br>      | 부모box 전체의 column을 기준으로 처음,중간,끝으로 옮길수있다.  |
+| justify-content | <img src="img/grid-justify-content.jpg" width="300"><br>      | 부모box 전체의 row를 기준으로 처음,중간,끝으로 옮길수있다.  |
+
+grid-align-content
+<hr>
+<br>
+자식box에 사용
+
+| property                           | Image                                                     | info                                                                                                                                             |
+| ---------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | grid-template-areas                | <img src="img/grid-template-areas.jpg" width="300"><br>   | 원하는 layout을 작성할수 있도록 한다.   단 자식box에 template-area의 이름을 지정해줘야 한다.                                                     |
 | grid-column-start, grid-column-row | <img src="img/grid-column-start,end.jpg" width="300"><br> | grid의 column부분을 위치를 통해 지정할 수 있다.    사진의 숫자는 column의 start,end의 의미이다. 짧게 grid-column : 1/2 이런식으로 사용 가능하다. |
 | grid-row-start, grid-row-row       | <img src="img/grid-row-start,end.jpg" width="300"><br>    | grid의 row부분의 위치를 통해 지정할 수 있다.    사진의 숫자는 row의 start,end의 의미이다. 짧게 grid-row : 1/2 이런식으로 사용 가능하다.          |
@@ -41,11 +56,7 @@
 
 
 
-- [x] justify-items
-- [x] align-items
-- [x] place-items
-- [x] justify-content
-- [x] align-content
+
 - [x] grid-auto-columns
 - [x] grid-auto-rows
 - [x] grid-auto-flow
