@@ -51,6 +51,8 @@ grid-align-content
 | grid-template-areas                | <img src="img/grid-template-areas.jpg" width="300"><br>   | 원하는 layout을 작성할수 있도록 한다.   단 자식box에 template-area의 이름을 지정해줘야 한다.                                                     |
 | grid-column-start, grid-column-row | <img src="img/grid-column-start,end.jpg" width="300"><br> | grid의 column부분을 위치를 통해 지정할 수 있다.    사진의 숫자는 column의 start,end의 의미이다. 짧게 grid-column : 1/2 이런식으로 사용 가능하다. |
 | grid-row-start, grid-row-row       | <img src="img/grid-row-start,end.jpg" width="300"><br>    | grid의 row부분의 위치를 통해 지정할 수 있다.    사진의 숫자는 row의 start,end의 의미이다. 짧게 grid-row : 1/2 이런식으로 사용 가능하다.          |
+| align-self                         | <img src="img/grid-align-self.jpg" width="300"><br>       | grid의 자식 box의 기준으로 column부분을 지정할 수 있다.                                                                                          |
+| justify-self                       | <img src="img/grid-justtify-self.jpg" width="300"><br>    | grid의 자식 box의 기준으로 row부분을 지정할 수 있다.                                                                                             |
 
 
 
@@ -60,8 +62,6 @@ grid-align-content
 - [x] grid-auto-columns
 - [x] grid-auto-rows
 - [x] grid-auto-flow
-- [x] justify-self
-- [x] align-self
 
 ### Keywords & Functions:
 
