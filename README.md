@@ -61,16 +61,17 @@
 
 ### Keywords & Functions:
 
-| Keywords & Functions | Where                                                   | How To                                             | What                                                                                         |
-| -------------------- | ------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| repeat               | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(1, 500px)               | 1fr 1fr 1fr 과 같이 크기를 정할때 반복되는 부분을 함수로 사용하는 것이다. ex) repeat(3, 1fr) |
-| fr                   | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(1, 1fr)                 | frational unit 으로, 사용가능한 공간에 대한 비율을 의미한다.                                 |
-| minmax               | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(10, minmax(100px, 1fr)) | property중 하나로서 최소 최대 크기를 지정한다.                                               |
+| Keywords & Functions | Where                                                   | How To                                                          | What                                                                                         | img                                           |
+| -------------------- | ------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| repeat               | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(1, 500px)                            | 1fr 1fr 1fr 과 같이 크기를 정할때 반복되는 부분을 함수로 사용하는 것이다. ex) repeat(3, 1fr) |
+| fr                   | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(1, 1fr)                              | frational unit 으로, 사용가능한 공간에 대한 비율을 의미한다.                                 |
+| minmax               | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(10, minmax(100px, 1fr))              | property중 하나로서 최소 최대 크기를 지정한다.                                               |
+| auto-fit             | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fit, minmax(100px, 1fr))        | 현재의 element를 늘려서 사용 공간을 꽉 채우는 것이다.                                        | <img src="img/auto-fit.jpg" width="1000"><br> |
+| auto-fill            | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(100px, 1fr))       | 현재의 element의 크기로 균등하게 사용공간을 채우는 것이다.                                   | <img src="img/auto-fit.jpg" width="1000"><br> |
+| min-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(min-content, 1fr)) | box의 내용물의 따라 최소한의 크기를 지정하는 것이다.                                         |                                               |
+| max-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(max-content, 1fr)) | box의 내용물의 따라 최대한의 크기를 지정하는 것이다.                                         |                                               |
 
-- [x] auto-fit
-- [x] auto-fill
-- [x] min-content
-- [x] max-content
+
 
 ## SCSS:
 
