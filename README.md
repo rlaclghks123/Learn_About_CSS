@@ -40,8 +40,11 @@
 | align-content | <img src="img/grid-justify-content.jpg" width="300"><br>      | 부모box 전체의 colunm을 기준으로 처음,중간,끝으로 옮길수있다.  |
 | align-contentt | <img src="img/grid-align-content.jpg" width="300"><br>      | 부모box 전체의 column을 기준으로 처음,중간,끝으로 옮길수있다.  |
 | justify-content | <img src="img/grid-justify-content.jpg" width="300"><br>      | 부모box 전체의 row를 기준으로 처음,중간,끝으로 옮길수있다.  |
+| grid-auto-rows | <img src="img/grid-auto-rows.jpg" width="300"><br>      | grid-template-rows를 통해 크기를 지정하지 않은 추가되는 row 부분들의 크기를 지정 하는 것 이다. 사진에선 9이후의 box들이다.   |
+| grid-auto-columns | <img src="img/grid-auto-columns.jpg" width="300"><br>      | grid-template-columns를 통해 크기를 지정하지 않은 추가되는 columns 부분들의 크기를 지정 하는 것 이다. 사진에선 9이후의 box들이다. 단 주의할점은 default값은 추가되는 box들은 row에 추가가 된다. 따라서 column으로 추가되도록 할려면 grid-auto-flow:column을 설정을 해줘야 한다. |
 
-grid-align-content
+
+
 <hr>
 <br>
 자식box에 사용
@@ -59,8 +62,6 @@ grid-align-content
 
 
 
-- [x] grid-auto-columns
-- [x] grid-auto-rows
 - [x] grid-auto-flow
 
 ### Keywords & Functions:
