@@ -59,16 +59,14 @@
 
 
 
-
-
-
-- [x] grid-auto-flow
-
 ### Keywords & Functions:
 
-- [x] repeat
-- [x] fr
-- [x] minmax
+| Keywords & Functions | Where                                                   | How To                                             | What                                                                                         |
+| -------------------- | ------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| repeat               | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(1, 500px)               | 1fr 1fr 1fr 과 같이 크기를 정할때 반복되는 부분을 함수로 사용하는 것이다. ex) repeat(3, 1fr) |
+| fr                   | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(1, 1fr)                 | frational unit 으로, 사용가능한 공간에 대한 비율을 의미한다.                                 |
+| minmax               | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(10, minmax(100px, 1fr)) | property중 하나로서 최소 최대 크기를 지정한다.                                               |
+
 - [x] auto-fit
 - [x] auto-fill
 - [x] min-content
