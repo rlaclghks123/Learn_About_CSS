@@ -1,7 +1,17 @@
 # SCSS Masterclass
 (S)CSS Layout Masterclass: Flexbox & Grid
-## Flexbox:
 
+
+## Contents
+
+- [Contents](#contents)
+  - [FlexBox](#flexbox)
+  - [Grid](#grid)
+  - [Keywords Functions](#keywords-functions)
+  - [SCSS](#scss)
+  - [Clone cording](#clone-cording)
+
+## FlexBox
 
 | property                | Image                                                                                                                                                                                           | info                                                                                                     |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -26,9 +36,10 @@
 
 ## Grid:
 
+- 부모box에 사용.
+
 | property | Image | info |
 | -------- | ----- | ---- |
-부모box에 사용.
 | grid-template-columns              | <img src="img/grid-template-columns.jpg" width="300"><br> | columns(세로)의 개수를 지정하는 방식이다.                                                                                                        |
 | grid-template-rows                 | <img src="img/grid-template-rows.jpg" width="300"><br>    | rows(가로)의 개수를 지정하는 방식이다. ex) columns는 3개, rowssms 6개이다.                                                                       |
 | grid-template-gap                  | <img src="img/grid-template-gap.jpg" width="300"><br>     | columns(세로)로 각각의 box마다 간격이다.                                                                                                         |
@@ -59,7 +70,7 @@
 
 
 
-### Keywords & Functions:
+## Keywords Functions
 
 | Keywords & Functions | Where                                                   | How To                                                          | What                                                                                         | img                                           |
 | -------------------- | ------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -73,7 +84,7 @@
 
 
 
-## SCSS:
+## SCSS
 
 - [x] Variables
 - [x] Nesting
@@ -82,7 +93,7 @@
 - [x] Responsive Mixins
 
 
-## clone cording:
+## Clone cording
 
 - [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [x] [https://paint-box.com/](https://paint-box.com/)
