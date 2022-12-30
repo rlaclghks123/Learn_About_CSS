@@ -1,17 +1,17 @@
-# SCSS Masterclass
-(S)CSS Layout Masterclass: Flexbox & Grid
+# CSS Master Class
+
+- HTML, CSS에 대해 공부하기 위한 클론코딩
+- css의 flex, grid에 대해 자세하게 공부하기 위한 프로젝트
+
+# 목차
+
+- [Flex](#flex)
+- [Grid](#grid)
+- [Keywords Functions](#keywords-functions)
+- [clone cording](#clone-cording)
 
 
-## Contents
-
-- [Contents](#contents)
-  - [FlexBox](#flexbox)
-  - [Grid](#grid)
-  - [Keywords Functions](#keywords-functions)
-  - [SCSS](#scss)
-  - [Clone cording](#clone-cording)
-
-## FlexBox
+# Flex
 
 | property                | Image                                                                                                                                                                                           | info                                                                                                     |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@
 <br>
 <br>
 
-## Grid:
+# Grid:
 
 - 부모box에 사용.
 
@@ -70,7 +70,7 @@
 
 
 
-## Keywords Functions
+# Keywords Functions
 
 | Keywords & Functions | Where                                                   | How To                                                          | What                                                                                         | img                                           |
 | -------------------- | ------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -83,17 +83,7 @@
 | max-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(max-content, 1fr)) | box의 내용물의 따라 최대한의 크기를 지정하는 것이다.                                         |                                               |
 
 
-
-## SCSS
-
-- [x] Variables
-- [x] Nesting
-- [x] Mixins
-- [x] Extend
-- [x] Responsive Mixins
-
-
-## Clone cording
+# Clone cording
 
 - [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [x] [https://paint-box.com/](https://paint-box.com/)
