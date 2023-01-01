@@ -1,37 +1,37 @@
-import gulp from "gulp";
-import del from "del";
-import sass from "gulp-sass";
-import minify from "gulp-csso";
-import autoprefixer from "gulp-autoprefixer";
+import gulp from 'gulp';
+import del from 'del';
+import sass from 'gulp-sass';
+import minify from 'gulp-csso';
+import autoprefixer from 'gulp-autoprefixer';
 
-sass.compiler = require("node-sass");
+sass.compiler = require('node-sass');
 
 const routes = {
-    css: {
-        watch: "src/scss/*",
-        src: "src/scss/canalstreet.scss",
-        dest: "dest/css"
-    }
+  css: {
+    watch: 'src/scss/*',
+    src: 'src/scss/*',
+    dest: 'dest/css',
+  },
 };
 
 const styles = () =>
-    gulp
-        .src(routes.css.src)
-        .pipe(sass().on("error", sass.logError))
-        .pipe(
-            autoprefixer({
-                flexbox: true,
-                grid: "autoplace"
-            })
-        )
-        .pipe(minify())
-        .pipe(gulp.dest(routes.css.dest));
+  gulp
+    .src(routes.css.src)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(
+      autoprefixer({
+        flexbox: true,
+        grid: 'autoplace',
+      })
+    )
+    .pipe(minify())
+    .pipe(gulp.dest(routes.css.dest));
 
 const watch = () => {
-    gulp.watch(routes.css.watch, styles);
+  gulp.watch(routes.css.watch, styles);
 };
 
-const clean = () => del(["dest/"]);
+const clean = () => del(['dest/']);
 
 const prepare = gulp.series([clean]);
 
