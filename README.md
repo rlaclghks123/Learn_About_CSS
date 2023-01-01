@@ -11,7 +11,6 @@
 - [Flex](#flex)
 - [Grid](#grid)
 - [Keywords Functions](#keywords-functions)
-- [clone cording](#clone-cording)
 
 # 미리보기 
 |사진|원본 사이트|
@@ -104,18 +103,3 @@
 | auto-fill            | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(100px, 1fr))       | 현재의 element의 크기로 균등하게 사용공간을 채우는 것이다.                                   | <img src="img/auto_fit.jpg" width="1000"><br> |
 | min-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(min-content, 1fr)) | box의 내용물의 따라 최소한의 크기를 지정하는 것이다.                                         |                                               |
 | max-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(max-content, 1fr)) | box의 내용물의 따라 최대한의 크기를 지정하는 것이다.                                         |                                               |
-
-
-# Clone cording
-
-- [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
-- [x] [https://paint-box.com/](https://paint-box.com/)
-- [x] [http://10x19.co/](http://10x19.co/)
-- [x] [http://www.z-o-o.fr/](http://www.z-o-o.fr/)
-- [x] [https://schwartzmedia.com.au/](https://schwartzmedia.com.au/)
-- [x] [https://tolv.dk/](https://tolv.dk/)
-- [x] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
-- [x] [https://beige.de/](https://beige.de/)
-- [x] [http://donicaida.com/](http://donicaida.com/)
-- [x] [https://wonhundred.com/](https://wonhundred.com/)
-- [x] [https://canalstreet.market/](https://canalstreet.market/)
