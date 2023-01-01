@@ -1,14 +1,20 @@
 # CSS Master Class
 
-- HTML, CSS에 대해 공부하기 위한 클론코딩
+- HTML, CSS에 대해 공부 및 적용하기 위해 클론코딩 한 프로젝트 
 - css의 flex, grid에 대해 자세하게 공부하기 위한 프로젝트
+- 최대한 클래스명, id명 등 의미 있는 이름을 작성하도록 클린코드를 위한 노력
 
 # 목차
 
+- [CSS 네이밍 규칙](#css-네이밍-규칙)
 - [Flex](#flex)
 - [Grid](#grid)
 - [Keywords Functions](#keywords-functions)
 - [clone cording](#clone-cording)
+
+# CSS 네이밍 규칙
+- [네이밍 규칙 참고](http://hhh8947.tistory.com/323)
+
 
 
 # Flex
