@@ -11,6 +11,7 @@
 - [Flex](#flex)
 - [Grid](#grid)
 - [Keywords Functions](#keywords-functions)
+- [회고](#회고)
 
 # 미리보기 
 |사진|원본 사이트|
@@ -102,3 +103,14 @@
 | auto-fill            | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(100px, 1fr))       | 현재의 element의 크기로 균등하게 사용공간을 채우는 것이다.                                   | <img src="img/auto_fit.jpg" width="1000"><br> |
 | min-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(min-content, 1fr)) | box의 내용물의 따라 최소한의 크기를 지정하는 것이다.                                         |                                               |
 | max-content          | 주로 grid-template-rows or grid-template-columns에 사용 | grid-template-rows: repeat(auto-fill, minmax(max-content, 1fr)) | box의 내용물의 따라 최대한의 크기를 지정하는 것이다.                                         |                                               |
+
+--- 
+
+# 회고
+회고는 블로그에 작성해 두었습니다. [블로그 바로가기](https://velog.io/@rlaclghks123/%ED%9A%8C%EA%B3%A0-CSS-%EC%84%B1%EC%9E%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+#### 회고 구성 
+- 프로젝트 진행 이유
+- 궁금했던 부분
+- 프로젝트를 통해 성장한 부분
+- 직접 css를 구현해보기
+- 삽질했던 부분
